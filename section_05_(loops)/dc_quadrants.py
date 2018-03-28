@@ -1,4 +1,4 @@
-# start by creating four lists of your quadrants.  we'll learn a better way to do this next lesson.
+# start by creating lists for the quadrants.  we'll learn a better way to do this next lesson.
 
 nw_addresses = []
 ne_addresses = []
@@ -7,7 +7,7 @@ se_addresses = []
 no_quadrant = []
 
 for entry in range(3): # do this three times:
-    address = raw_input("What is your address? ") # get the address from the user
+    address = raw_input("What is your DC address? ") # get the address from the user
 
     address = address.split(" ") # split address into a list based on the spaces
 
@@ -29,11 +29,11 @@ for entry in range(3): # do this three times:
         no_quadrant.append(' '.join(address))
 
 
-print "NW addresses include: {0}".format(nw_addresses)
-print "NE addresses include: {0}".format(ne_addresses)
-print "SW addresses include: {0}".format(sw_addresses)
-print "SE addresses include: {0}".format(se_addresses)
-print "Addresses without a quadrant include: {0}".format(no_quadrant)
+print("NW addresses include: {0}".format(nw_addresses))
+print("NE addresses include: {0}".format(ne_addresses))
+print("SW addresses include: {0}".format(sw_addresses))
+print("SE addresses include: {0}".format(se_addresses))
+print("Addresses without a quadrant include: {0}".format(no_quadrant))
 
 # Things to think about:
 
