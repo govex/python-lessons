@@ -9,6 +9,6 @@ list_with_duplicates = ['CT', 'DE', 'MN', 'OH', 'CT', 'OK', 'MT', 'FL', 'TX', 'C
 # Next we convert that set back to a list so we can use it as intended.
 list_without_duplicates = list(set(list_with_duplicates))
 
-print "List with duplicates: {0}".format(list_with_duplicates)
+print("List with duplicates: {0}".format(list_with_duplicates))
 
-print "List without duplicates: {0}".format(list_without_duplicates)
+print("List without duplicates: {0}".format(list_without_duplicates))
