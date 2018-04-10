@@ -4,6 +4,6 @@ with open("states.csv", "r") as states_file:
 for index, state in enumerate(states):
     states[index] = states[index].split(",")
 
-    print "{0}'s abbreviation is {1}".format(states[index][1], states[index][0])    
+    print("{0}'s abbreviation is {1}".format(states[index][1], states[index][0]))
 
-# print states
+# print(states)
