@@ -3,7 +3,7 @@
 with open('states.txt', 'r') as states_file:
     states = states_file.read().split("\n")
 
-print states
+print(states)
 
 # .read() is a file method that reads the file (which file? the one in the file object just before the dot) and returns the whole contents as a string.
 
@@ -12,4 +12,4 @@ print states
 # Now we can loop over that list!
 
 for state in states:
-    print state
+    print(state)
