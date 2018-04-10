@@ -18,7 +18,7 @@ address = "" # Enter your addresses here.
 # Problem 2: 456 fake st se
 # Problem 3: 678 lincoln ave
 
-print address
+print(address)
 
 address_as_list = address.upper().split(' ')
 
@@ -33,8 +33,8 @@ elif 'SW' in address_as_list:
 else:
     Other.append(address)
 
-print "NW is {0}".format(NW)
-print "NE is {0}".format(NE)
-print "SE is {0}".format(SE)
-print "SW is {0}".format(SW)
-print "Other is {0}".format(Other)
+print("NW is {0}".format(NW))
+print("NE is {0}".format(NE))
+print("SE is {0}".format(SE))
+print("SW is {0}".format(SW))
+print("Other is {0}".format(Other))
