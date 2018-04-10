@@ -24,10 +24,10 @@ with open('read_csv.csv', 'r') as states_file:
 for state in states[1:]: # We use [1:] so we skip the header row.
 
     # state[0] is the first column in the row, which contains the name of the state.
-    print "\n---{0}---".format(state[0])
+    print("\n---{0}---".format(state[0]))
 
     for index, info in enumerate(state[1:]): # We use [1:] so we don't repeat the state name.
-        print "{0}:\t{1}".format(states[0][index+1], info)
+        print("{0}:\t{1}".format(states[0][index+1], info))
 
     # states is the full list of all of the states.  It's a nested list.  The outer list contains the rows, each inner list contains the columns in that row.
     # states[0] refers to the header row of the list
