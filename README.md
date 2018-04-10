@@ -1,3 +1,5 @@
+Python lessons from Shannon Turner (Hear Me Code) https://hearmecode.com/
+
 ## First time installing/running Python? Be sure to check out the Start Here guide: https://github.com/shannonturner/python-lessons/blob/master/start-here.md
 
 In here are code snippets, examples, and other ways to help teach some of the concepts and tricks in Python.
