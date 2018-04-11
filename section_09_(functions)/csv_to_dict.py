@@ -20,4 +20,4 @@ def csvtodict(filename):
     return dictionary
 
 
-print csvtodict('events.csv')
+print(csvtodict('events.csv'))
