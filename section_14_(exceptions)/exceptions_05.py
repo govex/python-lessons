@@ -21,4 +21,4 @@ user_input = raw_input(" Example #5: enter a number: ")
 try:
     user_input = int(float(user_input))
 except ValueError:
-    print "Guess {0} was a string and not a number at all.".format(user_input)
+    print("Guess {0} was a string and not a number at all.".format(user_input))
