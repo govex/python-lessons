@@ -14,13 +14,13 @@ contacts = {
 }
 
 # We can access part of a string using slicing:
-print name[0] # S
+print(name[0]) # S
 
 # We can access part of a list using slicing:
-print attendees[0:2] # Shannon, Amy
+print(attendees[0:2]) # Shannon, Amy
 
 # We can access part of a dictionary if we know its key.
-print contacts['Jen'] # 301-600-5555
+print(contacts['Jen']) # 301-600-5555
 
 # In lines 9-14, we created a dictionary.
 # Dictionaries are another way of storing information in Python.
@@ -48,8 +48,8 @@ phone_we_want = 'Jen'
 
 for contact in contacts_as_list:
     if contact[0] == phone_we_want:
-        print contact[1] # The phone number
+        print(contact[1]) # The phone number
 
 # Kind of a pain.  Luckily, dictionaries mean we don't have to do this!
 
-print contacts['Jen']
+print(contacts['Jen'])
