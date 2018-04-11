@@ -28,7 +28,7 @@ Python 2.7 comes bundled with Macs already, so be careful to use **python3** and
 - When you open the terminal window, the words before your username are the folder you're in.
 - You're probably on your desktop to start. I recommend creating a folder on your desktop to put your Python scripts in.
 - For this example, let's say I named the folder pyscripts.
-- Go back to the terminal and type in **cd pyscripts** -- this will __c__hange the __d__irectory the terminal is working in to pyscripts.
+- Go back to the terminal and type in **cd pyscripts** -- this will **c**hange the **d**irectory the terminal is working in to pyscripts.
 - When you create a Python script for Python to run, you should create it in TextEdit, TextWrangler, or some other text editor that can save files in **plain text** format -- any other kind of format will confuse Python!
 - Let's also assume that I created a Python script called **lesson1_pbj.py**, and that file lives in **pyscripts** on the desktop.
 - To run lesson1_pbj.py, I would type into the terminal: **python3 lesson1_pbj.py**
