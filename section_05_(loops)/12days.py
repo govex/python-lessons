@@ -31,29 +31,29 @@ for day in range(1,13): # identical to the statement   for day in [1,2,3,4,5,6,7
     elif day >= 4:
         suffix = "th"
 
-    print "---------------------------------------------------------"
-    print "On the {0}{1} day of Christmas, my true love gave to me: ".format(day, suffix)
-    print "---------------------------------------------------------"
+    print("---------------------------------------------------------")
+    print("On the {0}{1} day of Christmas, my true love gave to me: ".format(day, suffix))
+    print("---------------------------------------------------------")
 
-    print "\t" + "\n\t".join(reversed(gifts[:day]))
+    print("\t" + "\n\t".join(reversed(gifts[:day])))
 
-print "---------------------------------------------------------"
-print "The gifts I have received in total are: "
-print "---------------------------------------------------------"
+print("---------------------------------------------------------")
+print("The gifts I have received in total are: ")
+print("---------------------------------------------------------")
 
-print "\t" + "\n\t".join(sorted(gifts_given))
+print("\t" + "\n\t".join(sorted(gifts_given)))
 
-print "---------------------------------------------------------"
-print "Over all twelve days I received: "
-print "---------------------------------------------------------"
+print("---------------------------------------------------------")
+print("Over all twelve days I received: ")
+print("---------------------------------------------------------")
 
 total_gifts = 0
 
 for repetitions, day in zip(reversed(range(1,13)), range(1,13)):
-    print "{0} of {1}".format(repetitions * day, gifts[day-1][gifts[day-1].index(' ')+1:]) # Complex slicing going on here!
+    print("{0} of {1}".format(repetitions * day, gifts[day-1][gifts[day-1].index(' ')+1:]) # Complex slicing going on here!
     total_gifts += repetitions * day
 
-print "I received {0} gifts in total".format(total_gifts)
+print("I received {0} gifts in total".format(total_gifts))
 
 # Complex Slicing Note:
 

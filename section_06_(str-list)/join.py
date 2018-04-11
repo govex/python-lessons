@@ -10,7 +10,7 @@ states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", 
 # The list is the list you'd like to glue back together.
 
 # So if we ran the following command:
-print "glue".join(states)
+print("glue".join(states))
 
 # We'd get:
 #AlabamaglueAlaskaglueArizonaglueArkansasglueCaliforniaglueColoradoglueConnecticutglueDelawareglueDistrict Of ColumbiaglueFloridaglueGeorgiaglueHawaiiglueIdahoglueIllinoisglueIndianaglueIowaglueKansasglueKentuckyglueLouisianaglueMaineglueMarylandglueMassachusettsglueMichiganglueMinnesotaglueMississippiglueMissouriglueMontanaglueNebraskaglueNevadaglueNew HampshireglueNew JerseyglueNew MexicoglueNew YorkglueNorth CarolinaglueNorth DakotaglueOhioglueOklahomaglueOregongluePALAUgluePennsylvaniagluePUERTO RICOglueRhode IslandglueSouth CarolinaglueSouth DakotaglueTennesseeglueTexasglueUtahglueVermontglueVirginiaglueWashingtonglueWest VirginiaglueWisconsinglueWyoming
@@ -18,7 +18,7 @@ print "glue".join(states)
 # Funny (and helpful for remembering), but that doesn't look very good.
 
 # Instead, let's use a useful piece of glue.  Let's glue it back together with a newline between each state.
-print "\n".join(states)
+print("\n".join(states))
 
 # Now we get:
 # Alabama

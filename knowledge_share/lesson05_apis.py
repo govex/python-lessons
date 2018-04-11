@@ -3,18 +3,18 @@
 print len(response)
 
 if response == []:
-    print "Sorry not found"
+    print("Sorry not found")
 
 if title[0:3] == 'The':
     title = title.replace("The", "")
 
 if title.isdigits():
-    print "It's all digits!"
+    print("It's all digits!")
 
 # Getting KeyErrors? use .get()
 
 if response.get('title'):
-    print "There's a title here"
+    print("There's a title here")
 
 # Don't do too much at once!
 # Break it down step by step.

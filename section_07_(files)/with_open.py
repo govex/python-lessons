@@ -1,7 +1,7 @@
 with open('states.txt', 'r') as states_file:
     states = states_file.read()
 
-print states
+print(states)
 
 # *with* is a special Python keyword that's used to create a "container" that will automatically close your file when the indentation level is broken.
 #   So in line 1, the file 'states.txt' is opened, and the variable states_file is created.

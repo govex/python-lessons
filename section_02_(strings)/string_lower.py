@@ -5,25 +5,25 @@
 
 name = "SHANNON!!"
 
-print name.lower() # shannon!!
-print name # it's back to the original of SHANNON!!
+print(name.lower()) # shannon!!
+print(name) # it's back to the original of SHANNON!!
 
 # To make the changes stick:
 name = name.lower()
 
-print name # shannon!!
+print(name) # shannon!!
 
 
 # string.upper() will turn all characters in your string uppercase but otherwise works in the same manner as string.lower()
 
 greeting = "hello, hi" # not very exuberant ...
 
-print greeting.upper() # MUCH BETTER!
+print(greeting.upper()) # MUCH BETTER!
 
 # Making the changes stick:
 greeting = greeting.upper()
 
-print greeting # HELLO, hi
+print(greeting) # HELLO, HI
 
 
 # string.lower() and .upper() are primarily used for testing strings in a case-insensitive manner
@@ -31,8 +31,8 @@ print greeting # HELLO, hi
 gender = 'F'
 
 if gender.lower() == 'f':
-    print "Hi lady!"
+    print("Hi lady!")
 
 # To accomplish the same thing without string.lower(), you would have to do:
 if gender == 'F' or gender == 'f':
-    print "Hi lady!"
+    print("Hi lady!")

@@ -18,10 +18,10 @@ shall have a new birth of freedom -- and that government of the people, by the p
 """
 
 # Now that we have a fairly long string to search through, let's see how many times the word "people" appears in the text
-print gettysburg_address.count("people") # appears 3 times
+print(gettysburg_address.count("people")) # appears 3 times
 
 # What goes inside the parentheses is the string that you're looking for; the larger string to look inside is the string that comes before the dot.
 
-print gettysburg_address.count("here, ") # appears 2 times
-print gettysburg_address.count("e") # appears 165 times
-print gettysburg_address.count("!!!!!!") # doesn't appear at all
+print(gettysburg_address.count("here, ")) # appears 2 times
+print(gettysburg_address.count("e")) # appears 165 times
+print(gettysburg_address.count("!!!!!!")) # doesn't appear at all

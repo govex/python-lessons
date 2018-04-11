@@ -9,7 +9,9 @@ address = address.split(" ")
 # Note that the list created is a list of strings.
 
 # And since it's a list, you can loop over it!
-
+for string in address:
+    print(string)
+    
 # .split() is commonly used to split text files into a list (at each newline)
 # .split() is also commonly used to split spreadsheet files in comma separated value (CSV) format into a list (at each comma)
 

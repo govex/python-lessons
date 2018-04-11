@@ -30,7 +30,7 @@ for name, phone in new_contacts.items():
     contacts[name] = phone
 
 # Now contacts has everything in new_contacts.
-print contacts, "\n"
+print(contacts, "\n")
 
 
 # Let's set contacts back to the value it had before we added new_contacts.
@@ -47,4 +47,4 @@ contacts = {
 
 contacts.update(new_contacts)
 
-print contacts
+print(contacts)

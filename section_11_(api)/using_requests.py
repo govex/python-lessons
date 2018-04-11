@@ -4,11 +4,11 @@ title = raw_input("Enter your movie: ")
 
 url = 'http://bechdeltest.com/api/v1/getMoviesByTitle?title={0}'.format(title).replace(" ","+").replace("'","&#39;")
 
-print url
+print(url)
 
 response = requests.get(url).json()
 
-print response
+print(response)
 
 # Search for 'matrix' gives the following JSON response (this is printed at line 11):
 
@@ -64,7 +64,7 @@ print response
 
 # Which is then looped through
 for movie in response:
-    print movie['title'], movie['rating']
+    print(movie['title'], movie['rating'])
 
 # And printed:
 # Matrix Reloaded, The 3

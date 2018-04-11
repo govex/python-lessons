@@ -11,10 +11,10 @@ contacts = {
 
 # We can use the dictionary method .values() to give us a list of all of the values in contacts.
 
-print contacts.values()
+print(contacts.values())
 
 for phone in contacts.values():
-    print "{0}".format(phone)
+    print("{0}".format(phone))
 
 # .values() is used less frequently than .keys() since you can't get the key from the value (but you can get the value if you know the key)
 

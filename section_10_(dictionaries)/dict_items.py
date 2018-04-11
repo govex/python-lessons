@@ -11,7 +11,7 @@ contacts = {
 
 # We can use the dictionary method .items() to give us a list of all of the items in contacts.
 
-print contacts.items()
+print(contacts.items())
 
 # Strictly speaking, .items() doesn't give us a list, it gives us a *tuple*, which is another way of storing information in Python.
 # Tuples are almost identical to lists, except they're read-only.  You can't add to/remove from a tuple.

@@ -7,12 +7,12 @@ github_handle = '@shannonturner'
 
 
 # You can use a comma to separate different items that you want to print as shown below
-print "My github handle is ", github_handle
+print("My github handle is ", github_handle)
 
 
 # This is our first slicing example.  Notice the square brackets attached directly to the variable name with no spaces in between.
 # The two numbers in the middle, separated by a colon, are called the slicing indexes
-print "My first name is ", github_handle[1:8]
+print("My first name is ", github_handle[1:8])
 
 
 # Here's how you can visualize the print statement above.
@@ -44,15 +44,15 @@ print "My first name is ", github_handle[1:8]
 # I think of it as: Python starts at 1 and walks UNTIL it gets to 8 and then stops, gathering up everything in between.
 
 
-print "My last name is ", github_handle[8:14]
+print("My last name is ", github_handle[8:14])
 
 # Notice that there is no index 14.  If the second index is higher than what exists, Python will assume you mean "until the very end"
 
 # You can omit the second index; Python understands this as "go to the end"
-print "My last name is ", github_handle[8:]
+print("My last name is ", github_handle[8:])
 
 # And if you omit the first index, Python understands this as "start from the beginning"
-print "My twitter handle is NOT ", github_handle[:8]
+print("My twitter handle is NOT ", github_handle[:8])
 
 # What happens if you use a negative slicing index?
 
@@ -73,11 +73,11 @@ print "My twitter handle is NOT ", github_handle[:8]
 ##      -2		e
 ##      -1		r
 
-print "My last name is ", github_handle[-6:]
+print("My last name is ", github_handle[-6:])
 
 # You can also mix and match positive and negative slicing indexes as needed
 
-print "My first name is ", github_handle[1:-6]
+print("My first name is ", github_handle[1:-6])
 
 # In these examples, we're relying on knowing the exact slicing indexes.  But what if our string changes in size or content?
 # With short strings, it's fairly easy (especially if you write it out as above) to figure out which slices you need.
@@ -86,7 +86,7 @@ print "My first name is ", github_handle[1:-6]
 
 # If this part is confusing, you may want to revisit this section when you're comfortable with string methods like str.find()
 
-print "### Part Two ###"
+print("### Part Two ###")
 
 text = "My GitHub handle is @shannonturner and my Twitter handle is @svt827"
 
@@ -94,24 +94,24 @@ text = "My GitHub handle is @shannonturner and my Twitter handle is @svt827"
 
 snail_index = text.find('@')
 
-print text[snail_index:snail_index + 14] # So the first slicing index is given by the variable, but we're still relying on knowing the exact number of characters (14).  We can improve this.
+print(text[snail_index:snail_index + 14])# So the first slicing index is given by the variable, but we're still relying on knowing the exact number of characters (14).  We can improve this.
 
 space_after_first_snail_index = text[snail_index:].find(' ') # Note that we're using slicing here to say start the .find() after the first snail is found.
 
-print text[snail_index:snail_index + space_after_first_snail_index] # Why do we need to add snail_index to the second slicing index? Take a look:
+print(text[snail_index:snail_index + space_after_first_snail_index])# Why do we need to add snail_index to the second slicing index? Take a look:
 
-print "snail_index is: ", snail_index
-print "space_after_first_snail_index is: ", space_after_first_snail_index
+print("snail_index is: ", snail_index)
+print("space_after_first_snail_index is: ", space_after_first_snail_index)
 
-print "So this is essentially saying text[20:34], see? --> ", text[20:34]
+print("So this is essentially saying text[20:34], see? --> ", text[20:34])
 
 # Instead of creating a separate variable, you can just add the str.find() that gives the number you want right into the slice, like this:
 
-print text[text.find('@'):text.find('@')+text[text.find('@'):].find(' ')] # But as you can see, it's not the most readable, especially compared to above.
+print(text[text.find('@'):text.find('@')+text[text.find('@'):].find(' ')]) # But as you can see, it's not the most readable, especially compared to above.
 
 # Still, it's a fairly common syntax / notation, so it's worth being familiar with it and knowing what it looks like in case you run into it.
 
-print "Can you use slicing and string methods like str.find() to extract the Twitter handle from text?"
+print("Can you use slicing and string methods like str.find() to extract the Twitter handle from text?")
 
 
 

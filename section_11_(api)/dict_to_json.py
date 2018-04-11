@@ -25,7 +25,7 @@ contacts = [
 #       enemies is an empty list
 
 # json.dumps() is used to dump your information stored as dictionaries, lists, and strings into the JSON format
-print json.dumps(contacts, indent=4, sort_keys=True)
+print(json.dumps(contacts, indent=4, sort_keys=True))
 # indent=4 will indent each level as this many spaces (4), which looks way nicer than not doing this.
 # sort_keys=True will sort the keys within the dictionary based on their name
 

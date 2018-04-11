@@ -19,9 +19,9 @@
 lesson_section = 1 # General Programming Basics
 lesson_subsection = 2 # Variable Assignment
 
-# In line 19, I'm telling Python I want to create a variable called 'section' and set it equal to 1
+# In line 19, I'm telling Python I want to create a variable called 'lesson_section' and set it equal to 1
 
-# Shannon's Rules of variable names
+# Shannon Turner's Rules of variable names
 # ---------------------------------
 # Variables should be descriptive, even if it means their names are long
 # You should be able to show your code to anyone and they'll know exactly what information a given variable holds
@@ -29,23 +29,23 @@ lesson_subsection = 2 # Variable Assignment
 
 # We've stored values inside of lesson_section and lesson_subsection, so now let's use them!
 
-print "We are on Section #", lesson_section
-print "And this is unit #", lesson_subsection, ", which covers Variable Assignment"
+print("We are on Section #", lesson_section)
+print("And this is unit #", lesson_subsection, ", which covers Variable Assignment")
 
-print "Take another look at the code for the basic math unit."
-print "Anywhere you see a number in that code, you can replace it with a variable that holds a number instead."
+print("Take another look at the code for the basic math unit.")
+print("Anywhere you see a number in that code, you can replace it with a variable that holds a number instead.")
 
 # Let's see that in practice:
 days_in_a_year = 365 # Beautifully descriptive variable names are their own comments
 my_age = 21 # yeah, right!
 
-print "My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take."
+print("My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take.")
 
 # Now let's change the value stored in days_in_a_year to account for leap years and try it again.
 
 days_in_a_year = days_in_a_year + .25 # Equivalent to days_in_a_year = 365 + .25
 
-print "My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take, now that I'm including leap years."
+print("My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take, now that I'm including leap years.")
 
 
 
