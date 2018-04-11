@@ -1,4 +1,5 @@
 ## First time installing/running Python? Be sure to check out the Start Here guide: https://github.com/govex/python-lessons/blob/master/start-here.md
+Python lessons from Shannon Turner (Hear Me Code) https://hearmecode.com/
 
 In here are code snippets, examples, and other ways to help teach some of the concepts and tricks in Python.
 
