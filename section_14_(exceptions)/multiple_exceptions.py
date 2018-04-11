@@ -11,6 +11,6 @@ age = '' # try with 100 or with 'x100' or with ['100'] or with None or with Fals
 try:
     age = int(age)
 except (TypeError, ValueError) as err:
-    print "Invalid entry: {0}; error: {1}".format(age, err)
+    print("Invalid entry: {0}; error: {1}".format(age, err))
 else:
-    print "Your age is: {0}".format(age)
+    print("Your age is: {0}".format(age))
