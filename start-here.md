@@ -1,17 +1,24 @@
 ### Installation Guide and Running your First Python Script
 
-#### Running Python in Windows or Linux
+#### Installing Python on a Mac
+Linux computers come with a package manager like apt and yum that can download software for you, but OS X is missing one. That's where Homebrew comes in (https://brew.sh).
+- Open a new terminal and enter `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Then, enter `brew install python3`
+- Done!
+
+Python 2.7 comes bundled with Macs already, so be careful to use **python3** and **pip3** or you might encounter unexpected errors.
+
+#### Installing Python in Windows or Linux
 - Download and install Python from appropriate installer at the bottom of this page: https://www.python.org/downloads/release/python-365/
+
+#### Running Python in Windows or Linux
 - You can use the command line to run codes, but for learning, the IDLE program (packaged with Python) can be helpful.
 - When you run IDLE, you'll automatically be in the interactive interpreter mode where you can run Python commands one at a time.
   - To create a new file from IDLE, go to File > New Window.  A new, blank screen will open up where you can create your Python projects.
   - When you have a Python file open in IDLE, you can run it at any time by pressing **F5**.
 - From the command line, run python3 shell and you'll enter the interpreter where you can run Python commands one at a time, similar to IDLE.
-  - You can create Python files in any text editor, and run them in the command line by writing "python3 " and then the path to your file.
+  - You can create Python files in any text editor, and run them in the command line by writing `python3 ` and then the path to your file.
   
-#### Running Python on a Mac
-
-Python 2.7 comes bundled with Macs already, so be careful to use **python3** and **pip3** or you might encounter unexpected errors.
 
 **You should probably make it easy on yourself and download [Sublime Text 3](http://www.sublimetext.com/3), which will allow you to run Python files straight from your editor.**
 
