@@ -8,13 +8,13 @@ try:
     user_input = int(float(user_input))
 
 except ValueError:
-    print "You didn't enter a number, did you?"
+    print("You didn't enter a number, did you?")
     
 else: # no errors occurred
-    print "Hooray! We didn't encounter any errors!"
+    print("Hooray! We didn't encounter any errors!")
 
 finally: # no matter what
-    print "Here was your input: {0}".format(user_input)
+    print("Here was your input: {0}".format(user_input))
 
-print "'finally' isn't that common though, and you could really just put your code outside of the block entirely."
-print "Here was your input: {0}".format(user_input) # Like this!
+print("'finally' isn't that common though, and you could really just put your code outside of the block entirely.")
+print("Here was your input: {0}".format(user_input)) # Like this!
