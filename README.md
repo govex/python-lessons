@@ -1,4 +1,4 @@
-## First time installing/running Python? Be sure to check out the Start Here guide: https://github.com/shannonturner/python-lessons/blob/master/start-here.md
+## First time installing/running Python? Be sure to check out the Start Here guide: https://github.com/govex/python-lessons/blob/master/start-here.md
 
 In here are code snippets, examples, and other ways to help teach some of the concepts and tricks in Python.
 
@@ -115,27 +115,6 @@ So if you wanted to learn more about variable assignment, go to the folder **sec
 - Accessing specific items in a nested dictionary within a list
 - If you can do those four above, you can handle receiving JSON API returns
 
-#### Section 12: Standard Library
-- import keyword
-- from ... import ... as ... structure
-- time
-- random
-- math
-- re (regular expressions)
-- os
-- sys
-- json
-
-#### Section 13: External Libraries (Not necessarily in order; keep these in mind)
-- Installing external libraries with easy_install
-- Using easy_install to install pip (an easier / better way to install external libraries)
-- requests (web crawling made easy)
-- BeautifulSoup (parsing HTML)
-- xlrd (Read Excel .xls files)
-- xlwt (Write to Excel .xls files)
-- xlsxwriter (Write to Excel .xls and .xlsx files, with additional functionality beyond xlwt)
-- cherrypy (Simple, lightweight framework for serving web pages)
-- psycopg2 (Connect to and issue SQL commands to your postgresql database)
 
 #### Section 14: Exception Handling
 - try / except syntax
@@ -150,6 +129,3 @@ So if you wanted to learn more about variable assignment, go to the folder **sec
 - Inline Conditionals
 - Generators
 
-#### Section 16: Classes
-- Classes
-- Magic Methods
