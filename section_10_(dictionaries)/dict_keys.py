@@ -11,10 +11,10 @@ contacts = {
 
 # We can use the dictionary method .keys() to give us a list of all of the keys in contacts.
 
-print contacts.keys()
+print(contacts.keys())
 
 for contact in contacts.keys():
-    print "{0}'s number is {1}".format(contact, contacts[contact])
+    print("{0}'s number is {1}".format(contact, contacts[contact]))
 
 # Dictionaries are unordered, so the keys (and their values) might be in a different order each time.  Or they might not.  Either way, that's normal.
 
@@ -23,4 +23,4 @@ for contact in contacts.keys():
 # The built-in function sorted() will sort a list in ascending order.
 
 for contact in sorted(contacts.keys()):
-    print "{0}'s number is {1}".format(contact, contacts[contact])
+    print("{0}'s number is {1}".format(contact, contacts[contact]))
